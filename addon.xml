@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.2x2" name="2x2" version="1.0.0" provider-name="raitonoberu">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+        <import addon="script.module.requests" version="2.22.0"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="addon.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+        <summary>Прямой эфир 2x2</summary>
+        <description>Прямой эфир телеканала 2x2 с сайта online.2x2tv.ru</description>
+        <license>MIT</license>
+        <source>https://github.com/raitonoberu/plugin.video.2x2</source>
+    </extension>
+</addon>
