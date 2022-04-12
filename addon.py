@@ -8,7 +8,7 @@ resolutions = ["1280x720", "1024x576", "640x360"]
 
 addon = xbmcaddon.Addon()
 
-response = requests.get(api_url)
+response = requests.get(api_url, headers={"Referer": "https://online.2x2tv.ru/"})
 if response:
     hls_url = response.json()["live_streams"]["hls"][0]["url"]
     playlist = requests.get(hls_url).text
