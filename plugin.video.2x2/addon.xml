@@ -13,5 +13,9 @@
         <description>Прямой эфир телеканала 2x2 с сайта online.2x2tv.ru</description>
         <license>MIT</license>
         <source>https://github.com/raitonoberu/plugin.video.2x2</source>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
     </extension>
 </addon>
